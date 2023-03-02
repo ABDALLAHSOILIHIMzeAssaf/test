@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Rubik+Bubbles&display=swap');
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    margin: 0; 
+    /* le marge ext de l'élément */
+    padding: 0; 
+    /* le marge int de l'élement  */
+    font-family: 'Roboto Condensed', sans-serif;
+}
+nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #422d2d7a;
+}
+nav h1
+{
+    color: #ee0606;
+    font-family: 'Rubik Bubbles', sans-serif;
+    font-size: 30px;
+}
+nav .onglets
+{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav .onglets a 
+{
+    text-decoration: none;
+    color: #20124d;
+    margin-right: 10px;
+    border-bottom: 1px solid #1067d9;
+    padding-bottom: 5px;
+}
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('https://media.istockphoto.com/photos/flag-of-comoros-picture-id181046557?k=6&m=181046557&s=612x612&w=0&h=yuh9u6bDWVsIic1vOkfxmSNJbUoMCfE1JGu4oXmJcE8=');
+    background-size: cover;
+    padding: 5px;
+}
+
+header h1
+{
+    font-family: 'Rubik Bubbles',sans-serif;
+    font-size: 50px;
+}
+
+header h2
+{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px  #422d2d7a;
+}
+
+header button
+{
+    padding: 10px 20px;
+    background-color: #ee0606;
+    color: aliceblue;
+    border: none ;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main
+{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .content .card
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.main .content .card .left
+{
+    flex: 30%;
+    padding: 50px;
+    background-color: rgb(11, 11, 11);
+    color: aliceblue;
+}
+
+.main .content .card.right
+{
+    flex: 70%;
+}
+
+.main .content .card .right img
+{
+    height: 300px;
+    width: 600px;
+    margin: 50px;
+}
+
+footer
+{
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: #08f42b;
+    padding: 30px 100px;
+}
+
+ footer h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid rgb(11, 11, 11);
+    width: 16%;
+    padding-bottom: 5px;
+}
+
+ footer .services
+{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: flex;
+}
+
+ footer.services .service
+{
+    margin-right: 50px;
+    padding: 10px;
+}
+
+ footer.services .service p
+{
+    max-width: 300px;
+
+}
+
+ footer #contact
+{
+    color: #410bef;
+}
+
+@media screen and (max-whdth:680px) 
+{
+    nav .onglets
+    {
+        margin-left: 0px;
+        margin-bottom: 20px;   
+    }
+    .main .card
+    {
+        margin: 10px;
+    }
+    .main .content .card.right img
+    {
+        height: 200px;
+        width: 100%;
+        margin: 0px;
+    }
+    .main .content .card
+    {
+        display: block;
+    }
+    footer
+    {
+        padding: 30px;
+    }
+}

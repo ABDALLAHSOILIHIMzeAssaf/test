@@ -1,0 +1,102 @@
+body h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body
+{
+    display: flex;
+    flex-wrap: flex;
+}
+
+p
+{
+    margin: 30px 0 0 0;
+}
+
+.forme 
+{
+    border-radius: 40px 40px 40px 40px;
+    width: 450px;
+    height: 900px;
+    border: solid 10px rgb(255, 6, 6);
+    cursor:pointer;
+}
+
+.forme h1
+{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.forme h1 p
+{
+    font-size: 10px;
+    
+}
+
+.forme .drapeau
+{
+    border-radius: 35px 35px 35px 35px;
+    width: 450px;
+    height: 900px;
+}
+
+.forme .haut
+{
+    width: 160px;
+    height: 20px;
+    margin-top: -1200px ;
+    margin-bottom: 900px;
+    margin-left: 35%;
+    border-radius: 0 0 20px 20px;
+}
+
+.hauteur
+{
+    width: 20px;
+    height: 40px;
+}
+
+.parametre
+{
+    width: 40px;
+    height: 60px; 
+    border-radius:20px 20px 20px 20px ;
+    margin-top: 400px;
+    margin-left: -20px;
+    background: url(https://support.apple.com/fr-fr/HT202033);
+}
+
+#wifi
+{
+    border-radius:20px 20px 50px 50px ;
+    margin-top: 10px;
+    margin-left: -120px;
+}
+
+#baterie
+{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#heure
+{
+    margin-top: 140px;
+    margin-left: -260px;
+    height: 120px;
+    width: 80px;
+}
+
+img
+{
+    cursor: pointer;
+}
